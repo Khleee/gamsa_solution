@@ -1,4 +1,3 @@
-
 *.index
 *.pyc
 *.pb
@@ -6,6 +5,5 @@
 *.pth
 *.pt
 *.bin
-*.pyc
 inno_ocr/log_demo_result.txt
 inno_stt/logs/
