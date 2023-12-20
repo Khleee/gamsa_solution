@@ -105,8 +105,8 @@
                                 <h1 class="h3 mb-1 text-gray-800">음성파일을 업로드해주세요</h1>   
                             </div>
                             <form id="fileForm" action="/inference_stt" method="post" enctype="multipart/form-data">
-                                <input type="file" id="audio" accept="audio/*">
-                                <button type="button" id="inference_stt" class="btn btn-primary">STT 변환하기</button>
+                                <input type="file" id="audio" name="audio" accept="audio/*">
+                                <button type="submit" id="inference_stt" class="btn btn-primary">STT 변환하기</button>
                                 <!-- 로딩 표시 -->
                                 <img src="static/img/loading.gif" id="loadingStatus" style="display: none;" width="65" height="65">
                             </form>
