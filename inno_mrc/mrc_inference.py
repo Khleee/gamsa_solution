@@ -54,7 +54,7 @@ MODEL_CLASSES = {
 
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-def main(input):
+def run_mrc(input):
     question = input
     model_type = 'bert'
     model_name_or_path = './inno_mrc/KorQuAD_Gamsa_models'

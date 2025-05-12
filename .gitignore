@@ -1,3 +1,4 @@
+# 모델 및 체크포인트
 *.index
 *.pyc
 *.pb
@@ -5,5 +6,17 @@
 *.pth
 *.pt
 *.bin
+*.h5
+
+# OCR 결과 및 로그
 inno_ocr/log_demo_result.txt
-inno_stt/logs/
+inno_ocr/result/
+
+# STT
+inno_stt/test/
+
+# 기타
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
